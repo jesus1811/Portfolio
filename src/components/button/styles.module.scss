@@ -1,0 +1,24 @@
+@use "/src/scss/mixins" as *;
+@use "/src/scss/theme" as *;
+
+.container {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  transition: all ease-out 150ms;
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 2px $primary;
+  &_primary {
+    background: $primary;
+    color: $containerSecundary;
+  }
+  &_secundary {
+    background: transparent;
+    color: $primary;
+    &:hover {
+      background: $primary;
+      color: $containerSecundary;
+    }
+  }
+}

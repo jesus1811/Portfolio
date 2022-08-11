@@ -1,0 +1,9 @@
+@use "/src/scss/mixins" as *;
+@use "/src/scss/theme" as *;
+
+.container {
+  width: 100%;
+  min-width: 100vh;
+  @include flexCenter;
+  flex-direction: column;
+}
