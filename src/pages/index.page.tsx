@@ -4,7 +4,7 @@ import { About, Banner, Projects, Skills } from "./components";
 
 const Home = () => {
   return (
-    <Layout title="JesuDev | Home" description="portfolio de jesudev">
+    <Layout title="Home | JesuDev" description="portfolio de jesudev">
       <Header />
       <Banner />
       <About />
