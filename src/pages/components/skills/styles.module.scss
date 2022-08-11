@@ -1,0 +1,34 @@
+@use "/src/scss/mixins" as *;
+@use "/src/scss/theme" as *;
+
+.container {
+  @include container;
+  background: $containerSecundary;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: stretch;
+  align-items: center;
+  @include content;
+  gap: 30px;
+}
+.Datas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  > p {
+    color: $white;
+    font-size: 20px;
+    gap: 8px;
+  }
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  justify-items: stretch;
+  align-items: center;
+  width: 100%;
+  gap: 48px;
+}

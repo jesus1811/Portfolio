@@ -4,6 +4,7 @@
 .container {
   @include container;
   background: $containerPrimary;
+  margin: 100vh 0 0 0;
 }
 .content {
   @include flexCenter;
@@ -16,7 +17,7 @@
     text-align: justify;
   }
 }
-.containerButton {
+.buttons {
   width: 100%;
   display: grid;
   justify-items: center;

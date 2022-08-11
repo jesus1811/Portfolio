@@ -17,7 +17,7 @@ const About = () => {
           le gusta seguir aprendiendo de los demás y también me gusta compartir mis conocimientos e interactuar con la
           comunidad.
         </p>
-        <div data-aos="fade-up" className={styles.containerButton}>
+        <div data-aos="fade-up" className={styles.buttons}>
           <Button href="https://jesus1811.github.io/cv/JesusAyarza.pdf">Descargar CV</Button>
           <Button secundary data-aos="fade-up" href="contact">
             Contactame
