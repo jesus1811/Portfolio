@@ -1,5 +1,4 @@
 import { Button } from "@/components";
-import Image from "next/image";
 import React from "react";
 import styles from "./styles.module.scss";
 interface Props {
@@ -15,7 +14,7 @@ const ProjectCard = ({ children, icon, description, tecnologies, href, repositor
   return (
     <div data-aos="zoom-in" className={styles.container}>
       <h2>{children}</h2>
-      <Image src={icon} width="255px" height="255px" />
+      <img src={icon} width="255px" height="255px" />
       <div className={styles.datas}>
         <p>{description}</p>
         <span>{tecnologies}</span>
