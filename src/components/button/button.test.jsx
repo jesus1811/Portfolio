@@ -1,14 +1,14 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/react";
-import Layout from "./Layout";
+import Button from "./Button";
 
-describe("Layout.tsx", () => {
+describe("Button.tsx", () => {
   test("renders content", () => {
     const component = render(
-      <Layout>
-        <h1>hola mundo</h1>
-      </Layout>
+      <Button secundary href="demo">
+        buscar
+      </Button>
     );
-    component.getByText("hola mundo");
+    component.getByText("buscar");
   });
 });
