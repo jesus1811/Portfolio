@@ -26,6 +26,7 @@ const Skills = () => {
           <SkillCard src="/typescript.svg">TypeScript</SkillCard>
           <SkillCard src="/redux.svg">Redux</SkillCard>
           <SkillCard src="/jest.svg">Jest</SkillCard>
+          <SkillCard src="/testing-library.svg">Testing Library</SkillCard>
         </aside>
       </div>
     </section>

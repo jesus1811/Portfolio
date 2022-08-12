@@ -18,6 +18,12 @@
   justify-items: center;
   align-items: center;
   gap: 30px;
+  p {
+    color: $white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
   img {
     width: 90px;
     object-fit: cover;
