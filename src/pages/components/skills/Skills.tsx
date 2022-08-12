@@ -1,6 +1,6 @@
 import { Title } from "@/components";
 import React from "react";
-import Card from "../card/Card";
+import Card from "../card-skill/CardSkill";
 import styles from "./styles.module.scss";
 
 const Skills = () => {

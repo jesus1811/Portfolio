@@ -1,8 +1,8 @@
 import React from "react";
-import { Props } from "./card.type";
+import { Props } from "./cardSkill.type";
 import styles from "./styles.module.scss";
 
-const Card = ({ src, children }: Props) => {
+const CardSkill = ({ src, children }: Props) => {
   return (
     <div className={styles.container} data-aos="zoom-in">
       <img src={src} alt={children} />
@@ -11,4 +11,4 @@ const Card = ({ src, children }: Props) => {
   );
 };
 
-export default Card;
+export default CardSkill;
