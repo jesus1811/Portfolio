@@ -1,7 +1,5 @@
-import React from "react";
 import { Footer, Header, Layout } from "@/components";
 import { About, Banner, Projects, Skills } from "./components";
-
 const Home = () => {
   return (
     <Layout title="Home | JesuDev" description="portfolio de jesudev">

@@ -1,8 +1,7 @@
 import { Title } from "@/components";
-import React from "react";
-import Card from "../card-skill/CardSkill";
+import dynamic from "next/dynamic";
+import CardSkill from "../card-skill/CardSkill";
 import styles from "./styles.module.scss";
-
 const Skills = () => {
   return (
     <section className={styles.container}>
@@ -14,20 +13,20 @@ const Skills = () => {
           </p>
         </aside>
         <aside className={styles.cards}>
-          <Card src="/html.svg">HMTL</Card>
-          <Card src="/css.svg">CSS</Card>
-          <Card src="/javascript.svg">JavaScript</Card>
-          <Card src="/git.svg">Git</Card>
-          <Card src="/styled-component.svg">Styled Components</Card>
-          <Card src="/react.svg">React</Card>
-          <Card src="/next-js.svg">Next</Card>
-          <Card src="/tailwind.svg">Tailwind</Card>
-          <Card src="/sass.svg">Sass</Card>
-          <Card src="/express.svg">Express</Card>
-          <Card src="/nodejs.svg">Node</Card>
-          <Card src="/typescript.svg">TypeScript</Card>
-          <Card src="/redux.svg">Redux</Card>
-          <Card src="/jest.svg">Jest</Card>
+          <CardSkill src="/html.svg">HMTL</CardSkill>
+          <CardSkill src="/css.svg">CSS</CardSkill>
+          <CardSkill src="/javascript.svg">JavaScript</CardSkill>
+          <CardSkill src="/git.svg">Git</CardSkill>
+          <CardSkill src="/styled-component.svg">Styled Components</CardSkill>
+          <CardSkill src="/react.svg">React</CardSkill>
+          <CardSkill src="/next-js.svg">Next</CardSkill>
+          <CardSkill src="/tailwind.svg">Tailwind</CardSkill>
+          <CardSkill src="/sass.svg">Sass</CardSkill>
+          <CardSkill src="/express.svg">Express</CardSkill>
+          <CardSkill src="/nodejs.svg">Node</CardSkill>
+          <CardSkill src="/typescript.svg">TypeScript</CardSkill>
+          <CardSkill src="/redux.svg">Redux</CardSkill>
+          <CardSkill src="/jest.svg">Jest</CardSkill>
         </aside>
       </div>
     </section>
