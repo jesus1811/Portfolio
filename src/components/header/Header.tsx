@@ -16,10 +16,10 @@ const Header = () => {
           <Link to="about" smooth={true}>
             Sobre Mi
           </Link>
-          <Link to="skill" smooth={true}>
+          <Link to="skills" smooth={true}>
             Skills
           </Link>
-          <Link to="proyect" smooth={true}>
+          <Link to="projects" smooth={true}>
             Proyectos
           </Link>
           <Link to="contact" smooth={true}>

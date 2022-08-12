@@ -1,10 +1,9 @@
 import { Title } from "@/components";
-import dynamic from "next/dynamic";
-import CardSkill from "../card-skill/CardSkill";
+import SkillCard from "../skill-card/SkillCard";
 import styles from "./styles.module.scss";
 const Skills = () => {
   return (
-    <section className={styles.container}>
+    <section className={`${styles.container} skills`}>
       <div className={styles.content}>
         <aside className={styles.Datas}>
           <Title>Skills</Title>
@@ -13,20 +12,20 @@ const Skills = () => {
           </p>
         </aside>
         <aside className={styles.cards}>
-          <CardSkill src="/html.svg">HMTL</CardSkill>
-          <CardSkill src="/css.svg">CSS</CardSkill>
-          <CardSkill src="/javascript.svg">JavaScript</CardSkill>
-          <CardSkill src="/git.svg">Git</CardSkill>
-          <CardSkill src="/styled-component.svg">Styled Components</CardSkill>
-          <CardSkill src="/react.svg">React</CardSkill>
-          <CardSkill src="/next-js.svg">Next</CardSkill>
-          <CardSkill src="/tailwind.svg">Tailwind</CardSkill>
-          <CardSkill src="/sass.svg">Sass</CardSkill>
-          <CardSkill src="/express.svg">Express</CardSkill>
-          <CardSkill src="/nodejs.svg">Node</CardSkill>
-          <CardSkill src="/typescript.svg">TypeScript</CardSkill>
-          <CardSkill src="/redux.svg">Redux</CardSkill>
-          <CardSkill src="/jest.svg">Jest</CardSkill>
+          <SkillCard src="/html.svg">HMTL</SkillCard>
+          <SkillCard src="/css.svg">CSS</SkillCard>
+          <SkillCard src="/javascript.svg">JavaScript</SkillCard>
+          <SkillCard src="/git.svg">Git</SkillCard>
+          <SkillCard src="/styled-component.svg">Styled Components</SkillCard>
+          <SkillCard src="/react.svg">React</SkillCard>
+          <SkillCard src="/next-js.svg">Next</SkillCard>
+          <SkillCard src="/tailwind.svg">Tailwind</SkillCard>
+          <SkillCard src="/sass.svg">Sass</SkillCard>
+          <SkillCard src="/express.svg">Express</SkillCard>
+          <SkillCard src="/nodejs.svg">Node</SkillCard>
+          <SkillCard src="/typescript.svg">TypeScript</SkillCard>
+          <SkillCard src="/redux.svg">Redux</SkillCard>
+          <SkillCard src="/jest.svg">Jest</SkillCard>
         </aside>
       </div>
     </section>

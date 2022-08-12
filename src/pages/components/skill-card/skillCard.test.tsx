@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/react";
-import CardSkill from "./CardSkill";
+import SkillCard from "./SkillCard";
 
-describe("CardSkill.tsx", () => {
+describe("SkillCard.tsx", () => {
   test("renders content", () => {
-    const component = render(<CardSkill src="/react.svg">React</CardSkill>);
+    const component = render(<SkillCard src="/react.svg">React</SkillCard>);
     component.getByText("React");
   });
 });

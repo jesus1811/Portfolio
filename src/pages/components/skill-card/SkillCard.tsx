@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { Props } from "./cardSkill.type";
+import { Props } from "./skillCard.type";
 import styles from "./styles.module.scss";
 
-const CardSkill = ({ src, children }: Props) => {
+const SkillCard = ({ src, children }: Props) => {
   return (
     <div className={styles.container} data-aos="zoom-in">
       <Image src={src} alt={children} width="100px" height="100px" />
@@ -12,4 +12,4 @@ const CardSkill = ({ src, children }: Props) => {
   );
 };
 
-export default CardSkill;
+export default SkillCard;
