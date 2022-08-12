@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.content}>
         <Title>¿Quién soy?</Title>
         <p data-aos="fade-up">
-          Desarrollador Front End con capacidad de realizar proyectos reales en el entorno de React, NodeJS y Express,
+          Desarrollador Front end con capacidad de realizar proyectos reales en el entorno de React, NodeJS y Express,
           teniendo siempre en mente que sean escalables y modulares, para así poder lograr proyectos de calidad.
         </p>
         <Title>¿Por que yo?</Title>
