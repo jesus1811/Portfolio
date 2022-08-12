@@ -7,10 +7,10 @@ describe("ProjectCard.tsx", () => {
     const component = render(
       <ProjectCard
         href="https//demo"
-        icon="note.png"
+        icon="/note.png"
         description="aplicacion de notas"
         tecnologies="HMTL-CSS"
-        repository="https//demo"
+        repository="https//jesudev.github.com"
       >
         Notes
       </ProjectCard>

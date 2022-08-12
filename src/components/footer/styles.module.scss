@@ -1,0 +1,30 @@
+@use "/src/scss/mixins" as *;
+@use "/src/scss/theme" as *;
+
+.container {
+  @include container;
+  background: $containerSecundary;
+  gap: 40px;
+  > p {
+    font-size: 20px;
+    text-align: center;
+    color: $white;
+  }
+}
+.content {
+  @include content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  img {
+    width: 90px;
+    object-fit: cover;
+    border: solid 2px transparent;
+    border-radius: 100%;
+    &:hover {
+      border: solid 2px $primary;
+    }
+  }
+}

@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import styles from "./styles.module.scss";
-import { Props } from "./layout.type";
-
+interface Props {
+  children: JSX.Element | JSX.Element[];
+  title: string;
+  description: string;
+}
 const Layout = ({ children, title, description }: Props) => {
   return (
     <>

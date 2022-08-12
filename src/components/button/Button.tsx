@@ -1,8 +1,11 @@
 import React from "react";
-import { Props } from "./button.type";
 import styles from "./styles.module.scss";
 import { Link } from "react-scroll";
-
+interface Props {
+  children: string | JSX.Element | JSX.Element[];
+  href: string;
+  secundary?: boolean;
+}
 const Button = ({ children, href, secundary }: Props) => {
   if (secundary)
     return (

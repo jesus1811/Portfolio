@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { Props } from "./title.type";
+interface Props {
+  children: string;
+}
 
 const Title = ({ children }: Props) => {
   return <h2 className={styles.container}>{children}</h2>;

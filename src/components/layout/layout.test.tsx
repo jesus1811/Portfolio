@@ -5,7 +5,7 @@ import Layout from "./Layout";
 describe("Layout.tsx", () => {
   test("renders content", () => {
     const component = render(
-      <Layout>
+      <Layout title="home" description="portfolio de jesudev">
         <h1>hola mundo</h1>
       </Layout>
     );

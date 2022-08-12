@@ -1,8 +1,15 @@
 import { Button } from "@/components";
 import Image from "next/image";
 import React from "react";
-import { Props } from "./projectCard.type";
 import styles from "./styles.module.scss";
+interface Props {
+  children: string;
+  icon: string;
+  description: string;
+  tecnologies: string;
+  href: string;
+  repository: string;
+}
 
 const ProjectCard = ({ children, icon, description, tecnologies, href, repository }: Props) => {
   return (

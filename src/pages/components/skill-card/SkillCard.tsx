@@ -1,7 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { Props } from "./skillCard.type";
 import styles from "./styles.module.scss";
+interface Props {
+  children: string;
+  src: string;
+}
 
 const SkillCard = ({ src, children }: Props) => {
   return (
