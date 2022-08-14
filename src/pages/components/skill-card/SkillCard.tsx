@@ -8,7 +8,7 @@ interface Props {
 const SkillCard = ({ src, children }: Props) => {
   return (
     <div className={styles.container} data-aos="zoom-in">
-      <img src={src} alt={children} width="100px" height="100px" />
+      <img src={src} alt={children} loading="lazy" />
       <p>{children}</p>
     </div>
   );

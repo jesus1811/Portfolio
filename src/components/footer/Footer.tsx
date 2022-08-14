@@ -7,19 +7,19 @@ const Footer = () => {
       <Title>Contactos</Title>
       <div className={styles.content}>
         <a href="" target="_blank" rel="noreferrer">
-          <img src="whatsapp.svg" alt="" data-aos="fade-up" />
+          <img src="whatsapp.svg" alt="" data-aos="fade-up" loading="lazy" />
           <p>WhatsApp</p>
         </a>
         <a href="" target="_blank" rel="noreferrer">
-          <img src="linkedin.svg" alt="" data-aos="fade-up" />
+          <img src="linkedin.svg" alt="" data-aos="fade-up" loading="lazy" />
           <p>Linkedin</p>
         </a>
         <a href="" target="_blank" rel="noreferrer">
-          <img src="telegram.svg" alt="" data-aos="fade-up" />
+          <img src="telegram.svg" alt="" data-aos="fade-up" loading="lazy" />
           <p>Telegram</p>
         </a>
         <a href="" target="_blank" rel="noreferrer">
-          <img src="github.svg" alt="" data-aos="fade-up" />
+          <img src="github.svg" alt="" data-aos="fade-up" loading="lazy" />
           <p>GitHub</p>
         </a>
       </div>
