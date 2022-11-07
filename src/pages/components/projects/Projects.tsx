@@ -10,6 +10,15 @@ const Projects = () => {
         <Title>Proyectos</Title>
         <div className={styles.cards}>
           <ProjectCard
+            icon="https://rick-and-morty-challenge-movie.vercel.app/banner.jpg"
+            href="https://rick-and-morty-challenge-movie.vercel.app/home"
+            repository="https://github.com/jesus1811/galery-photos.git"
+            description="Plataforma para ver la serie, con caja de comentarios por capitulo en tiempo real"
+            tecnologies="NEXT-SASS-REACT-FIREBASE-TYPESCRIPT"
+          >
+            Rickvana
+          </ProjectCard>
+          <ProjectCard
             icon="/service-comerce.png"
             href="https://service-comerce.vercel.app/"
             repository="https://github.com/jesus1811/service-comerce.git"
@@ -45,15 +54,7 @@ const Projects = () => {
           >
             Notes
           </ProjectCard>
-          <ProjectCard
-            icon="/galery-image.png"
-            href="https://galery-images.vercel.app/"
-            repository="https://github.com/jesus1811/galery-photos.git"
-            description="Aplicacion web de galeria de imagenes almacenandose en el localStorage"
-            tecnologies="NEXT-SASS-REACT-FIREBASE"
-          >
-            Image Gallery
-          </ProjectCard>
+
           <ProjectCard
             icon="/secret-chat.png"
             href="https://secret-chat-jesudev.vercel.app/"
