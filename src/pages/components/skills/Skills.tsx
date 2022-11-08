@@ -1,5 +1,6 @@
 import { Title } from "@/components";
 import SkillCard from "../skill-card/SkillCard";
+import { SkillsMock } from "./Skills.mock";
 import styles from "./styles.module.scss";
 const Skills = () => {
   return (
@@ -12,21 +13,11 @@ const Skills = () => {
           </p>
         </aside>
         <aside className={styles.cards}>
-          <SkillCard src="/html.svg">HMTL</SkillCard>
-          <SkillCard src="/css.svg">CSS</SkillCard>
-          <SkillCard src="/javascript.svg">JavaScript</SkillCard>
-          <SkillCard src="/git.svg">Git</SkillCard>
-          <SkillCard src="/styled-component.svg">Styled Components</SkillCard>
-          <SkillCard src="/react.svg">React</SkillCard>
-          <SkillCard src="/next-js.svg">Next</SkillCard>
-          <SkillCard src="/tailwind.svg">Tailwind</SkillCard>
-          <SkillCard src="/sass.svg">Sass</SkillCard>
-          <SkillCard src="/express.svg">Express</SkillCard>
-          <SkillCard src="/nodejs.svg">Node</SkillCard>
-          <SkillCard src="/typescript.svg">TypeScript</SkillCard>
-          <SkillCard src="/redux.svg">Redux</SkillCard>
-          <SkillCard src="/jest.svg">Jest</SkillCard>
-          <SkillCard src="/testing-library.svg">Testing Library</SkillCard>
+          {SkillsMock.map((skill, index) => (
+            <SkillCard key={index} src={skill.src}>
+              {skill.name}
+            </SkillCard>
+          ))}
         </aside>
       </div>
     </section>
