@@ -12,7 +12,7 @@ const Projects = () => {
           <ProjectCard
             icon="https://rick-and-morty-challenge-movie.vercel.app/banner.jpg"
             href="https://rick-and-morty-challenge-movie.vercel.app/home"
-            repository="https://github.com/jesus1811/galery-photos.git"
+            repository="https://github.com/jesus1811/rick-and-morty-challenge"
             description="Plataforma para ver la serie, con caja de comentarios por capitulo en tiempo real"
             tecnologies="NEXT-SASS-REACT-FIREBASE-TYPESCRIPT"
           >
