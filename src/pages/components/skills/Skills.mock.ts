@@ -26,14 +26,7 @@ export const SkillsMock: Skill[] = [
     src: "/sass.svg",
     name: "Sass",
   },
-  {
-    src: "/express.svg",
-    name: "Express",
-  },
-  {
-    src: "/nodejs.svg",
-    name: "NodeJS",
-  },
+
   {
     src: "/typescript.svg",
     name: "TypeScript",
@@ -41,9 +34,5 @@ export const SkillsMock: Skill[] = [
   {
     src: "/redux.svg",
     name: "Redux",
-  },
-  {
-    src: "/notion-logo.svg",
-    name: "Notion",
   },
 ];

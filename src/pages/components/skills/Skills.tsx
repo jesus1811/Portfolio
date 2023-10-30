@@ -7,10 +7,7 @@ const Skills = () => {
     <section className={`${styles.container} skills`}>
       <div className={styles.content}>
         <aside className={styles.Datas}>
-          <Title>Skills</Title>
-          <p className={styles.parrafo} data-aos="fade-right">
-            Mi sección de tecnologías:
-          </p>
+          <Title>Tecnologías</Title>
         </aside>
         <aside className={styles.cards}>
           {SkillsMock.map((skill, index) => (

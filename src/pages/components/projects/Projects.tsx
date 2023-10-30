@@ -27,24 +27,7 @@ const Projects = () => {
           >
             Service-commerce
           </ProjectCard>
-          <ProjectCard
-            icon="/inventory.png"
-            href="https://inventory-frontend-tau.vercel.app/"
-            repository="https://github.com/jesus1811/inventory.git"
-            description="Aplicacion web de administracion de productos con stock e imagenes"
-            tecnologies="REACT-NEXT-SASS-FIREBASE-EXPRESS-POSTGRESQL (PERN)"
-          >
-            Inventory
-          </ProjectCard>
-          <ProjectCard
-            icon="/auth-google.png"
-            href="https://auth-login.vercel.app/"
-            repository="https://github.com/jesus1811/auth.git"
-            description="Aplicacion web de autenticación de usuario "
-            tecnologies="REACT-CSS"
-          >
-            Auth Google
-          </ProjectCard>
+
           <ProjectCard
             icon="/promedio-notas.png"
             href="https://promedio-notas.vercel.app/"
