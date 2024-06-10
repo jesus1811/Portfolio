@@ -13,39 +13,28 @@ const Projects = () => {
             icon="https://rick-and-morty-challenge-movie.vercel.app/banner.jpg"
             href="https://rick-and-morty-challenge-movie.vercel.app/home"
             repository="https://github.com/jesus1811/rick-and-morty-challenge"
-            description="Plataforma para ver la serie, con caja de comentarios por capitulo en tiempo real"
-            tecnologies="NEXT-SASS-REACT-FIREBASE-TYPESCRIPT"
+            description="Plataforma para ver la serie Rick and morty"
+            tecnologies="Nentsjs Sass Reactjs Firebase Typescript"
           >
             Rickvana
           </ProjectCard>
           <ProjectCard
-            icon="/service-comerce.png"
-            href="https://service-comerce.vercel.app/"
-            repository="https://github.com/jesus1811/service-comerce.git"
-            description="Aplicacion web de servicios, cuenta con historial, y administracion de los servicios de cada usuario"
-            tecnologies="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-MYSQL (MERN)"
+            icon="/factura-pro-landing.png"
+            href="https://factura-landing.vercel.app/"
+            repository="https://github.com/jesus1811/factura-landing"
+            description="Landing page de una aplicacion web de administracion de facturas y boletas"
+            tecnologies="Nextjs tailwindcss Typescript"
           >
-            Service-commerce
+            Factura-pro landing
           </ProjectCard>
 
           <ProjectCard
-            icon="/promedio-notas.png"
-            href="https://promedio-notas.vercel.app/"
-            repository="https://github.com/jesus1811/notes.git"
-            description="Aplicacion web para administrar notas de estudiantes"
-            tecnologies="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
+            icon="/factura-pro-app.png"
+            href="https://factura-pro.vercel.app/"
+            description="Aplicacion web para administrar facturas y boletas con control a inventario"
+            tecnologies="Nextjs Supabase Tailwindcss Zustand Typescript"
           >
-            Notes
-          </ProjectCard>
-
-          <ProjectCard
-            icon="/secret-chat.png"
-            href="https://secret-chat-jesudev.vercel.app/"
-            repository="https://github.com/jesus1811/ossi"
-            description="aplicacion web de chat con salas el cual podras enviar mensajes e interactuar con grupos de amigos"
-            tecnologies="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-POSTGRESQL (PERN)"
-          >
-            Secret Chat
+            Factura-pro app
           </ProjectCard>
         </div>
       </div>
