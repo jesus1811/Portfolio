@@ -8,8 +8,8 @@ const About = () => {
       <div className={styles.content}>
         <Title>Acerca de mi</Title>
         <p data-aos="fade-up">
-          Apasionado desarrollador Front-End con más de 2 años de experiencia en ReactJS y su ecosistema. Mi forma de trabajo se centra en la creación de aplicaciones web escalables y modulares para
-          ofrecer soluciones de calidad.
+          Desarrollador Front-End con más de <span>2 años</span> de experiencia en <span>ReactJS</span> y su ecosistema. Creando aplicaciones web escalables y modulares para ofrecer soluciones de
+          calidad.
         </p>
 
         <div data-aos="fade-up" className={styles.buttons}>

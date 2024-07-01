@@ -6,17 +6,24 @@
   background: $containerPrimary;
   margin: 100vh 0 0 0;
 }
+
 .content {
   @include flexCenter;
   @include content;
   flex-direction: column;
   gap: 80px;
-  > p {
+
+  >p {
     font-size: 20px;
     color: $white;
     text-align: justify;
   }
+
+  span {
+    color: $primary;
+  }
 }
+
 .buttons {
   width: 100%;
   display: grid;

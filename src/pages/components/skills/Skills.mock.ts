@@ -5,7 +5,7 @@ interface Skill {
 
 export const SkillsMock: Skill[] = [
   { src: "/html.svg", name: "CSS" },
-  { src: "/javascript.svg", name: "JavaSscript" },
+  { src: "/javascript.svg", name: "Javascript" },
   {
     src: "/git.svg",
     name: "Git",
@@ -16,7 +16,7 @@ export const SkillsMock: Skill[] = [
   },
   {
     src: "/next-js.svg",
-    name: "NextJS",
+    name: "Next",
   },
   {
     src: "/tailwind.svg",
@@ -29,10 +29,14 @@ export const SkillsMock: Skill[] = [
 
   {
     src: "/typescript.svg",
-    name: "TypeScript",
+    name: "Typescript",
   },
   {
     src: "/redux.svg",
     name: "Redux",
+  },
+  {
+    src: "/stories-book.svg",
+    name: "Storybook",
   },
 ];
